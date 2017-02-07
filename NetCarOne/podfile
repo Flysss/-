@@ -1,0 +1,17 @@
+platform :ios, '7.0'
+target 'NetCarOne' do
+pod 'AMap3DMap'
+pod 'AMapSearch'
+pod 'SDWebImage'
+pod 'JSONModel'
+pod 'AFNetworking'
+pod 'Masonry'
+pod 'MJRefresh'
+pod 'MBProgressHUD'
+pod 'MJExtension'
+pod 'FMDB'
+pod 'MJPhotoBrowser'
+pod 'AMapLocation'
+
+end
+

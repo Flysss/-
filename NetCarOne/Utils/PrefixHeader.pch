@@ -1,0 +1,54 @@
+//
+//  PrefixHeader.pch
+//  NetCarOne
+//
+//  Created by orange on 16/9/2.
+//  Copyright © 2016年 orange. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <UIKit/UIKit.h>
+#import <MAMapKit/MAMapKit.h>
+#import <AMapSearchKit/AMapSearchKit.h>
+#import <AFNetworking/AFNetworking.h>
+#import <MJRefresh/MJRefresh.h>
+#import <AMapLocationKit/AMapLocationKit.h>
+#import "MJExtension.h"
+#import "Masonry.h"
+#import "FMDB.h"
+
+//屏幕宽高
+#define WIDTH [UIScreen mainScreen].bounds.size.width
+#define HEIGHT [UIScreen mainScreen].bounds.size.height
+
+//RGB转16进制
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+//常用字体
+#define   DEFAULT_9  [UIFont systemFontOfSize:9]
+#define   DEFAULT_10  [UIFont systemFontOfSize:10]
+#define   DEFAULT_11  [UIFont systemFontOfSize:11]
+#define   DEFAULT_12  [UIFont systemFontOfSize:12]
+#define   DEFAULT_13  [UIFont systemFontOfSize:13]
+#define   DEFAULT_15  [UIFont systemFontOfSize:15]
+#define   DEFAULT_17  [UIFont systemFontOfSize:17]
+#define   DEFAULT_25  [UIFont systemFontOfSize:25]
+#define   DEFAULT_30  [UIFont systemFontOfSize:30]
+#define   DEFAULT_45  [UIFont systemFontOfSize:45]
+
+//当前iOS版本
+#define IOS_VERSION [[[UIDevice currentDevice] systemVersion] floatValue]
+
+// APP版本
+#define APP_VERSION [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
+
+
+//获取紧急联系人key
+#define URGENCYCONNECTKEY @"UrgencyConnect"
+
+#endif /* PrefixHeader_pch */

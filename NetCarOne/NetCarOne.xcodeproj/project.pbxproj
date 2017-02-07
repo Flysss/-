@@ -1,0 +1,1381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		033F63039FE4510DAE231C53 /* libPods-NetCarOne.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 414AD12F6D3BFCB115821D4C /* libPods-NetCarOne.a */; };
+		610AF4501D7D00CB00DB8DCD /* MyWalletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 610AF44F1D7D00CB00DB8DCD /* MyWalletViewController.m */; };
+		610AF4531D7D00DB00DB8DCD /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 610AF4521D7D00DB00DB8DCD /* SettingViewController.m */; };
+		610AF4561D7D00E900DB8DCD /* JourneyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 610AF4551D7D00E900DB8DCD /* JourneyViewController.m */; };
+		610AF4591D7D00F500DB8DCD /* RecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 610AF4581D7D00F500DB8DCD /* RecommendViewController.m */; };
+		610AF45C1D7D010200DB8DCD /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 610AF45B1D7D010200DB8DCD /* HelpViewController.m */; };
+		610AF45F1D7D034500DB8DCD /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 610AF45E1D7D034500DB8DCD /* HomeViewController.m */; };
+		9C5BE13D1D7D12DF0009ECCA /* MailboxVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5BE13C1D7D12DF0009ECCA /* MailboxVC.m */; };
+		9C5F729D1D7ABED600D834C7 /* Memory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5F729C1D7ABED600D834C7 /* Memory.m */; };
+		9C5F72A01D7AC8B000D834C7 /* KBnotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5F729F1D7AC8B000D834C7 /* KBnotification.m */; };
+		9C870BD01D798DFA007C4589 /* Personal.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C870BCF1D798DFA007C4589 /* Personal.m */; };
+		9C870BD71D798E05007C4589 /* NicenameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C870BD21D798E05007C4589 /* NicenameController.m */; };
+		9C870BD81D798E05007C4589 /* MobileController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C870BD41D798E05007C4589 /* MobileController.m */; };
+		9C870BD91D798E05007C4589 /* ChangeMobileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C870BD61D798E05007C4589 /* ChangeMobileVC.m */; };
+		9C870BE01D798E1A007C4589 /* PickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C870BDB1D798E1A007C4589 /* PickerView.m */; };
+		9C870BE11D798E1A007C4589 /* AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C870BDD1D798E1A007C4589 /* AlertView.m */; };
+		9C870BE21D798E1A007C4589 /* RegularCheak.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C870BDF1D798E1A007C4589 /* RegularCheak.m */; };
+		9C870BE71D798E22007C4589 /* TextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C870BE41D798E22007C4589 /* TextField.m */; };
+		9C870BE81D798E22007C4589 /* PersonalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C870BE61D798E22007C4589 /* PersonalCell.m */; };
+		9C870BEB1D798E36007C4589 /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C870BEA1D798E36007C4589 /* Login.m */; };
+		9C870BEE1D798E43007C4589 /* Identification.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C870BED1D798E43007C4589 /* Identification.m */; };
+		9C870BF11D798E50007C4589 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C870BF01D798E50007C4589 /* Singleton.m */; };
+		9CF3D1021D7D39A5006C64B5 /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF3D0E51D7D39A5006C64B5 /* AboutUsViewController.m */; };
+		9CF3D1031D7D39A5006C64B5 /* FrequentAddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF3D0EB1D7D39A5006C64B5 /* FrequentAddressViewController.m */; };
+		9CF3D1041D7D39A5006C64B5 /* SelectAddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF3D0ED1D7D39A5006C64B5 /* SelectAddressViewController.m */; };
+		9CF3D1051D7D39A5006C64B5 /* UrgencyConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF3D0F31D7D39A5006C64B5 /* UrgencyConnectViewController.m */; };
+		9CF3D1061D7D39A5006C64B5 /* SecuirtyJourneyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF3D0F91D7D39A5006C64B5 /* SecuirtyJourneyViewController.m */; };
+		9CF3D1071D7D39A5006C64B5 /* BlackListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF3D0FF1D7D39A5006C64B5 /* BlackListViewController.m */; };
+		C256FECA1D780CA700401A8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C256FEC91D780CA700401A8B /* main.m */; };
+		C256FECD1D780CA700401A8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C256FECC1D780CA700401A8B /* AppDelegate.m */; };
+		C256FED01D780CA700401A8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C256FECF1D780CA700401A8B /* ViewController.m */; };
+		C256FED31D780CA700401A8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C256FED11D780CA700401A8B /* Main.storyboard */; };
+		C256FED51D780CA700401A8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C256FED41D780CA700401A8B /* Assets.xcassets */; };
+		C256FED81D780CA700401A8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C256FED61D780CA700401A8B /* LaunchScreen.storyboard */; };
+		C256FEE31D780CA700401A8B /* NetCarOneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C256FEE21D780CA700401A8B /* NetCarOneTests.m */; };
+		C256FEEE1D780CA700401A8B /* NetCarOneUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C256FEED1D780CA700401A8B /* NetCarOneUITests.m */; };
+		C256FF071D780EA300401A8B /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C256FF061D780EA300401A8B /* BaseViewController.m */; };
+		C256FF0A1D780EE800401A8B /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C256FF091D780EE800401A8B /* LeftMenuViewController.m */; };
+		C256FF201D7812E800401A8B /* LeftSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C256FF1F1D7812E800401A8B /* LeftSlideViewController.m */; };
+		C256FF2D1D781A8900401A8B /* UIView+UIView_extra.m in Sources */ = {isa = PBXBuildFile; fileRef = C256FF2C1D781A8900401A8B /* UIView+UIView_extra.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C256FEDF1D780CA700401A8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C256FEBD1D780CA700401A8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C256FEC41D780CA700401A8B;
+			remoteInfo = NetCarOne;
+		};
+		C256FEEA1D780CA700401A8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C256FEBD1D780CA700401A8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C256FEC41D780CA700401A8B;
+			remoteInfo = NetCarOne;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		414AD12F6D3BFCB115821D4C /* libPods-NetCarOne.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NetCarOne.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		610AF44E1D7D00CB00DB8DCD /* MyWalletViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWalletViewController.h; sourceTree = "<group>"; };
+		610AF44F1D7D00CB00DB8DCD /* MyWalletViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWalletViewController.m; sourceTree = "<group>"; };
+		610AF4511D7D00DB00DB8DCD /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		610AF4521D7D00DB00DB8DCD /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		610AF4541D7D00E900DB8DCD /* JourneyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JourneyViewController.h; sourceTree = "<group>"; };
+		610AF4551D7D00E900DB8DCD /* JourneyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JourneyViewController.m; sourceTree = "<group>"; };
+		610AF4571D7D00F500DB8DCD /* RecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendViewController.h; sourceTree = "<group>"; };
+		610AF4581D7D00F500DB8DCD /* RecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendViewController.m; sourceTree = "<group>"; };
+		610AF45A1D7D010200DB8DCD /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		610AF45B1D7D010200DB8DCD /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		610AF45D1D7D034500DB8DCD /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		610AF45E1D7D034500DB8DCD /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		966540EF50921A02332A069C /* Pods-NetCarOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetCarOne.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetCarOne/Pods-NetCarOne.release.xcconfig"; sourceTree = "<group>"; };
+		9C5BE13B1D7D12DF0009ECCA /* MailboxVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailboxVC.h; sourceTree = "<group>"; };
+		9C5BE13C1D7D12DF0009ECCA /* MailboxVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MailboxVC.m; sourceTree = "<group>"; };
+		9C5F729B1D7ABED600D834C7 /* Memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Memory.h; sourceTree = "<group>"; };
+		9C5F729C1D7ABED600D834C7 /* Memory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Memory.m; sourceTree = "<group>"; };
+		9C5F729E1D7AC8B000D834C7 /* KBnotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBnotification.h; sourceTree = "<group>"; };
+		9C5F729F1D7AC8B000D834C7 /* KBnotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBnotification.m; sourceTree = "<group>"; };
+		9C870BCE1D798DFA007C4589 /* Personal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Personal.h; sourceTree = "<group>"; };
+		9C870BCF1D798DFA007C4589 /* Personal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Personal.m; sourceTree = "<group>"; };
+		9C870BD11D798E05007C4589 /* NicenameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NicenameController.h; sourceTree = "<group>"; };
+		9C870BD21D798E05007C4589 /* NicenameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NicenameController.m; sourceTree = "<group>"; };
+		9C870BD31D798E05007C4589 /* MobileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileController.h; sourceTree = "<group>"; };
+		9C870BD41D798E05007C4589 /* MobileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileController.m; sourceTree = "<group>"; };
+		9C870BD51D798E05007C4589 /* ChangeMobileVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeMobileVC.h; sourceTree = "<group>"; };
+		9C870BD61D798E05007C4589 /* ChangeMobileVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeMobileVC.m; sourceTree = "<group>"; };
+		9C870BDA1D798E1A007C4589 /* PickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerView.h; sourceTree = "<group>"; };
+		9C870BDB1D798E1A007C4589 /* PickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerView.m; sourceTree = "<group>"; };
+		9C870BDC1D798E1A007C4589 /* AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertView.h; sourceTree = "<group>"; };
+		9C870BDD1D798E1A007C4589 /* AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertView.m; sourceTree = "<group>"; };
+		9C870BDE1D798E1A007C4589 /* RegularCheak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegularCheak.h; sourceTree = "<group>"; };
+		9C870BDF1D798E1A007C4589 /* RegularCheak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegularCheak.m; sourceTree = "<group>"; };
+		9C870BE31D798E22007C4589 /* TextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextField.h; sourceTree = "<group>"; };
+		9C870BE41D798E22007C4589 /* TextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextField.m; sourceTree = "<group>"; };
+		9C870BE51D798E22007C4589 /* PersonalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalCell.h; sourceTree = "<group>"; };
+		9C870BE61D798E22007C4589 /* PersonalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalCell.m; sourceTree = "<group>"; };
+		9C870BE91D798E36007C4589 /* Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login.h; sourceTree = "<group>"; };
+		9C870BEA1D798E36007C4589 /* Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login.m; sourceTree = "<group>"; };
+		9C870BEC1D798E43007C4589 /* Identification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Identification.h; sourceTree = "<group>"; };
+		9C870BED1D798E43007C4589 /* Identification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Identification.m; sourceTree = "<group>"; };
+		9C870BEF1D798E50007C4589 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		9C870BF01D798E50007C4589 /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
+		9CF3D0E41D7D39A5006C64B5 /* AboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUsViewController.h; sourceTree = "<group>"; };
+		9CF3D0E51D7D39A5006C64B5 /* AboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
+		9CF3D0EA1D7D39A5006C64B5 /* FrequentAddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrequentAddressViewController.h; sourceTree = "<group>"; };
+		9CF3D0EB1D7D39A5006C64B5 /* FrequentAddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrequentAddressViewController.m; sourceTree = "<group>"; };
+		9CF3D0EC1D7D39A5006C64B5 /* SelectAddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectAddressViewController.h; sourceTree = "<group>"; };
+		9CF3D0ED1D7D39A5006C64B5 /* SelectAddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectAddressViewController.m; sourceTree = "<group>"; };
+		9CF3D0F21D7D39A5006C64B5 /* UrgencyConnectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrgencyConnectViewController.h; sourceTree = "<group>"; };
+		9CF3D0F31D7D39A5006C64B5 /* UrgencyConnectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UrgencyConnectViewController.m; sourceTree = "<group>"; };
+		9CF3D0F81D7D39A5006C64B5 /* SecuirtyJourneyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecuirtyJourneyViewController.h; sourceTree = "<group>"; };
+		9CF3D0F91D7D39A5006C64B5 /* SecuirtyJourneyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecuirtyJourneyViewController.m; sourceTree = "<group>"; };
+		9CF3D0FE1D7D39A5006C64B5 /* BlackListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackListViewController.h; sourceTree = "<group>"; };
+		9CF3D0FF1D7D39A5006C64B5 /* BlackListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackListViewController.m; sourceTree = "<group>"; };
+		B6802F2804479BF94CF381E6 /* Pods-NetCarOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetCarOne.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetCarOne/Pods-NetCarOne.debug.xcconfig"; sourceTree = "<group>"; };
+		C23A7AB31D7908C700F88B05 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C256FEC51D780CA700401A8B /* NetCarOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetCarOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C256FEC91D780CA700401A8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C256FECB1D780CA700401A8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C256FECC1D780CA700401A8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C256FECE1D780CA700401A8B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C256FECF1D780CA700401A8B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C256FED21D780CA700401A8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C256FED41D780CA700401A8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C256FED71D780CA700401A8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C256FED91D780CA700401A8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C256FEDE1D780CA700401A8B /* NetCarOneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetCarOneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C256FEE21D780CA700401A8B /* NetCarOneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetCarOneTests.m; sourceTree = "<group>"; };
+		C256FEE41D780CA700401A8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C256FEE91D780CA700401A8B /* NetCarOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetCarOneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C256FEED1D780CA700401A8B /* NetCarOneUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetCarOneUITests.m; sourceTree = "<group>"; };
+		C256FEEF1D780CA700401A8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C256FF051D780EA300401A8B /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		C256FF061D780EA300401A8B /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		C256FF081D780EE800401A8B /* LeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuViewController.h; sourceTree = "<group>"; };
+		C256FF091D780EE800401A8B /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuViewController.m; sourceTree = "<group>"; };
+		C256FF1E1D7812E800401A8B /* LeftSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSlideViewController.h; sourceTree = "<group>"; };
+		C256FF1F1D7812E800401A8B /* LeftSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSlideViewController.m; sourceTree = "<group>"; };
+		C256FF2B1D781A8900401A8B /* UIView+UIView_extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIView_extra.h"; sourceTree = "<group>"; };
+		C256FF2C1D781A8900401A8B /* UIView+UIView_extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIView_extra.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C256FEC21D780CA700401A8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033F63039FE4510DAE231C53 /* libPods-NetCarOne.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C256FEDB1D780CA700401A8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C256FEE61D780CA700401A8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CEE82121A6DE8DF8DA1E47F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6802F2804479BF94CF381E6 /* Pods-NetCarOne.debug.xcconfig */,
+				966540EF50921A02332A069C /* Pods-NetCarOne.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		610AF4361D7CFFA200DB8DCD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				610AF45D1D7D034500DB8DCD /* HomeViewController.h */,
+				610AF45E1D7D034500DB8DCD /* HomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		610AF4371D7CFFA200DB8DCD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		610AF4381D7CFFA200DB8DCD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		610AF4391D7CFFAC00DB8DCD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				610AF4511D7D00DB00DB8DCD /* SettingViewController.h */,
+				610AF4521D7D00DB00DB8DCD /* SettingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		610AF43A1D7CFFAC00DB8DCD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		610AF43B1D7CFFAC00DB8DCD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		610AF43C1D7CFFBA00DB8DCD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				610AF4541D7D00E900DB8DCD /* JourneyViewController.h */,
+				610AF4551D7D00E900DB8DCD /* JourneyViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		610AF43D1D7CFFBA00DB8DCD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		610AF43E1D7CFFBA00DB8DCD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		610AF43F1D7CFFC200DB8DCD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				610AF4571D7D00F500DB8DCD /* RecommendViewController.h */,
+				610AF4581D7D00F500DB8DCD /* RecommendViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		610AF4401D7CFFC200DB8DCD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		610AF4411D7CFFC200DB8DCD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		610AF4421D7CFFCC00DB8DCD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				610AF45A1D7D010200DB8DCD /* HelpViewController.h */,
+				610AF45B1D7D010200DB8DCD /* HelpViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		610AF4431D7CFFCC00DB8DCD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		610AF4441D7CFFCC00DB8DCD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		610AF4451D7D007600DB8DCD /* utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		610AF4461D7D007E00DB8DCD /* utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		610AF4471D7D008500DB8DCD /* utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		610AF4481D7D008B00DB8DCD /* utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		610AF4491D7D009600DB8DCD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				610AF44E1D7D00CB00DB8DCD /* MyWalletViewController.h */,
+				610AF44F1D7D00CB00DB8DCD /* MyWalletViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		610AF44A1D7D009600DB8DCD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		610AF44B1D7D009600DB8DCD /* utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		610AF44C1D7D009600DB8DCD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		610AF44D1D7D009E00DB8DCD /* utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		9C870BA61D798A06007C4589 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9C870BA71D798A06007C4589 /* Identify */,
+				9C870BAC1D798A06007C4589 /* Login */,
+				9C870BB11D798A06007C4589 /* Personal */,
+				9C870BB61D798A06007C4589 /* 帮助 */,
+				9C870BB91D798A06007C4589 /* 推荐 */,
+				9C870BBC1D798A06007C4589 /* 行程 */,
+				9C870BBF1D798A06007C4589 /* 设置 */,
+				9C870BC21D798A06007C4589 /* 钱包 */,
+				9C870BC51D798A06007C4589 /* 首页 */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		9C870BA71D798A06007C4589 /* Identify */ = {
+			isa = PBXGroup;
+			children = (
+				9C870BA81D798A06007C4589 /* Controllers */,
+				9C870BA91D798A06007C4589 /* Models */,
+				9C870BAA1D798A06007C4589 /* utils */,
+				9C870BAB1D798A06007C4589 /* Views */,
+			);
+			path = Identify;
+			sourceTree = "<group>";
+		};
+		9C870BA81D798A06007C4589 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9C870BEC1D798E43007C4589 /* Identification.h */,
+				9C870BED1D798E43007C4589 /* Identification.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9C870BA91D798A06007C4589 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9C870BAA1D798A06007C4589 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		9C870BAB1D798A06007C4589 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9C870BAC1D798A06007C4589 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				9C870BAD1D798A06007C4589 /* Controllers */,
+				9C870BAE1D798A06007C4589 /* Models */,
+				9C870BAF1D798A06007C4589 /* utils */,
+				9C870BB01D798A06007C4589 /* Views */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		9C870BAD1D798A06007C4589 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9C870BE91D798E36007C4589 /* Login.h */,
+				9C870BEA1D798E36007C4589 /* Login.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9C870BAE1D798A06007C4589 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9C870BEF1D798E50007C4589 /* Singleton.h */,
+				9C870BF01D798E50007C4589 /* Singleton.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9C870BAF1D798A06007C4589 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				9C5F729B1D7ABED600D834C7 /* Memory.h */,
+				9C5F729C1D7ABED600D834C7 /* Memory.m */,
+				9C5F729E1D7AC8B000D834C7 /* KBnotification.h */,
+				9C5F729F1D7AC8B000D834C7 /* KBnotification.m */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		9C870BB01D798A06007C4589 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9C870BB11D798A06007C4589 /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+				9C870BB21D798A06007C4589 /* Controllers */,
+				9C870BB31D798A06007C4589 /* Models */,
+				9C870BB41D798A06007C4589 /* utils */,
+				9C870BB51D798A06007C4589 /* Views */,
+			);
+			path = Personal;
+			sourceTree = "<group>";
+		};
+		9C870BB21D798A06007C4589 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9C870BCE1D798DFA007C4589 /* Personal.h */,
+				9C870BCF1D798DFA007C4589 /* Personal.m */,
+				9C870BD11D798E05007C4589 /* NicenameController.h */,
+				9C870BD21D798E05007C4589 /* NicenameController.m */,
+				9C870BD31D798E05007C4589 /* MobileController.h */,
+				9C870BD41D798E05007C4589 /* MobileController.m */,
+				9C870BD51D798E05007C4589 /* ChangeMobileVC.h */,
+				9C870BD61D798E05007C4589 /* ChangeMobileVC.m */,
+				9C5BE13B1D7D12DF0009ECCA /* MailboxVC.h */,
+				9C5BE13C1D7D12DF0009ECCA /* MailboxVC.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9C870BB31D798A06007C4589 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9C870BB41D798A06007C4589 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				9C870BDA1D798E1A007C4589 /* PickerView.h */,
+				9C870BDB1D798E1A007C4589 /* PickerView.m */,
+				9C870BDC1D798E1A007C4589 /* AlertView.h */,
+				9C870BDD1D798E1A007C4589 /* AlertView.m */,
+				9C870BDE1D798E1A007C4589 /* RegularCheak.h */,
+				9C870BDF1D798E1A007C4589 /* RegularCheak.m */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		9C870BB51D798A06007C4589 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9C870BE31D798E22007C4589 /* TextField.h */,
+				9C870BE41D798E22007C4589 /* TextField.m */,
+				9C870BE51D798E22007C4589 /* PersonalCell.h */,
+				9C870BE61D798E22007C4589 /* PersonalCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9C870BB61D798A06007C4589 /* 帮助 */ = {
+			isa = PBXGroup;
+			children = (
+				610AF4451D7D007600DB8DCD /* utils */,
+				610AF4421D7CFFCC00DB8DCD /* Controller */,
+				610AF4431D7CFFCC00DB8DCD /* Model */,
+				610AF4441D7CFFCC00DB8DCD /* Views */,
+			);
+			path = "帮助";
+			sourceTree = "<group>";
+		};
+		9C870BB91D798A06007C4589 /* 推荐 */ = {
+			isa = PBXGroup;
+			children = (
+				610AF4461D7D007E00DB8DCD /* utils */,
+				610AF43F1D7CFFC200DB8DCD /* Controller */,
+				610AF4401D7CFFC200DB8DCD /* Model */,
+				610AF4411D7CFFC200DB8DCD /* Views */,
+			);
+			path = "推荐";
+			sourceTree = "<group>";
+		};
+		9C870BBC1D798A06007C4589 /* 行程 */ = {
+			isa = PBXGroup;
+			children = (
+				610AF4471D7D008500DB8DCD /* utils */,
+				610AF43C1D7CFFBA00DB8DCD /* Controller */,
+				610AF43D1D7CFFBA00DB8DCD /* Model */,
+				610AF43E1D7CFFBA00DB8DCD /* Views */,
+			);
+			path = "行程";
+			sourceTree = "<group>";
+		};
+		9C870BBF1D798A06007C4589 /* 设置 */ = {
+			isa = PBXGroup;
+			children = (
+				9CF3D0E11D7D39A5006C64B5 /* Source */,
+				610AF4481D7D008B00DB8DCD /* utils */,
+				610AF4391D7CFFAC00DB8DCD /* Controller */,
+				610AF43A1D7CFFAC00DB8DCD /* Model */,
+				610AF43B1D7CFFAC00DB8DCD /* Views */,
+			);
+			path = "设置";
+			sourceTree = "<group>";
+		};
+		9C870BC21D798A06007C4589 /* 钱包 */ = {
+			isa = PBXGroup;
+			children = (
+				610AF4491D7D009600DB8DCD /* Controller */,
+				610AF44A1D7D009600DB8DCD /* Model */,
+				610AF44B1D7D009600DB8DCD /* utils */,
+				610AF44C1D7D009600DB8DCD /* Views */,
+			);
+			path = "钱包";
+			sourceTree = "<group>";
+		};
+		9C870BC51D798A06007C4589 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				610AF44D1D7D009E00DB8DCD /* utils */,
+				610AF4361D7CFFA200DB8DCD /* Controller */,
+				610AF4371D7CFFA200DB8DCD /* Model */,
+				610AF4381D7CFFA200DB8DCD /* Views */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		9CF3D0E11D7D39A5006C64B5 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9CF3D0E21D7D39A5006C64B5 /* 关于我们 */,
+				9CF3D0E81D7D39A5006C64B5 /* 常用地址 */,
+				9CF3D0F01D7D39A5006C64B5 /* 紧急联系人 */,
+				9CF3D0F61D7D39A5006C64B5 /* 行程安全 */,
+				9CF3D0FC1D7D39A5006C64B5 /* 黑名单 */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		9CF3D0E21D7D39A5006C64B5 /* 关于我们 */ = {
+			isa = PBXGroup;
+			children = (
+				9CF3D0E31D7D39A5006C64B5 /* Controller */,
+				9CF3D0E61D7D39A5006C64B5 /* Model */,
+				9CF3D0E71D7D39A5006C64B5 /* Views */,
+			);
+			path = "关于我们";
+			sourceTree = "<group>";
+		};
+		9CF3D0E31D7D39A5006C64B5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9CF3D0E41D7D39A5006C64B5 /* AboutUsViewController.h */,
+				9CF3D0E51D7D39A5006C64B5 /* AboutUsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9CF3D0E61D7D39A5006C64B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9CF3D0E71D7D39A5006C64B5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9CF3D0E81D7D39A5006C64B5 /* 常用地址 */ = {
+			isa = PBXGroup;
+			children = (
+				9CF3D0E91D7D39A5006C64B5 /* Controller */,
+				9CF3D0EE1D7D39A5006C64B5 /* Model */,
+				9CF3D0EF1D7D39A5006C64B5 /* Views */,
+			);
+			path = "常用地址";
+			sourceTree = "<group>";
+		};
+		9CF3D0E91D7D39A5006C64B5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9CF3D0EA1D7D39A5006C64B5 /* FrequentAddressViewController.h */,
+				9CF3D0EB1D7D39A5006C64B5 /* FrequentAddressViewController.m */,
+				9CF3D0EC1D7D39A5006C64B5 /* SelectAddressViewController.h */,
+				9CF3D0ED1D7D39A5006C64B5 /* SelectAddressViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9CF3D0EE1D7D39A5006C64B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9CF3D0EF1D7D39A5006C64B5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9CF3D0F01D7D39A5006C64B5 /* 紧急联系人 */ = {
+			isa = PBXGroup;
+			children = (
+				9CF3D0F11D7D39A5006C64B5 /* Controller */,
+				9CF3D0F41D7D39A5006C64B5 /* Model */,
+				9CF3D0F51D7D39A5006C64B5 /* Views */,
+			);
+			path = "紧急联系人";
+			sourceTree = "<group>";
+		};
+		9CF3D0F11D7D39A5006C64B5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9CF3D0F21D7D39A5006C64B5 /* UrgencyConnectViewController.h */,
+				9CF3D0F31D7D39A5006C64B5 /* UrgencyConnectViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9CF3D0F41D7D39A5006C64B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9CF3D0F51D7D39A5006C64B5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9CF3D0F61D7D39A5006C64B5 /* 行程安全 */ = {
+			isa = PBXGroup;
+			children = (
+				9CF3D0F71D7D39A5006C64B5 /* Controller */,
+				9CF3D0FA1D7D39A5006C64B5 /* Model */,
+				9CF3D0FB1D7D39A5006C64B5 /* Views */,
+			);
+			path = "行程安全";
+			sourceTree = "<group>";
+		};
+		9CF3D0F71D7D39A5006C64B5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9CF3D0F81D7D39A5006C64B5 /* SecuirtyJourneyViewController.h */,
+				9CF3D0F91D7D39A5006C64B5 /* SecuirtyJourneyViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9CF3D0FA1D7D39A5006C64B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9CF3D0FB1D7D39A5006C64B5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9CF3D0FC1D7D39A5006C64B5 /* 黑名单 */ = {
+			isa = PBXGroup;
+			children = (
+				9CF3D0FD1D7D39A5006C64B5 /* Controller */,
+				9CF3D1001D7D39A5006C64B5 /* Model */,
+				9CF3D1011D7D39A5006C64B5 /* Views */,
+			);
+			path = "黑名单";
+			sourceTree = "<group>";
+		};
+		9CF3D0FD1D7D39A5006C64B5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9CF3D0FE1D7D39A5006C64B5 /* BlackListViewController.h */,
+				9CF3D0FF1D7D39A5006C64B5 /* BlackListViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9CF3D1001D7D39A5006C64B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9CF3D1011D7D39A5006C64B5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C256FEBC1D780CA700401A8B = {
+			isa = PBXGroup;
+			children = (
+				9C870BA61D798A06007C4589 /* Source */,
+				C256FF1D1D7812AF00401A8B /* ThirdParty */,
+				C256FF011D780E7C00401A8B /* BaseView */,
+				C256FF021D780E7C00401A8B /* Common */,
+				C256FF031D780E7C00401A8B /* Resources */,
+				C256FF041D780E7C00401A8B /* Utils */,
+				C256FEC71D780CA700401A8B /* NetCarOne */,
+				C256FEE11D780CA700401A8B /* NetCarOneTests */,
+				C256FEEC1D780CA700401A8B /* NetCarOneUITests */,
+				C256FEC61D780CA700401A8B /* Products */,
+				5CEE82121A6DE8DF8DA1E47F /* Pods */,
+				CC8416F56B7D2A323F444FB7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C256FEC61D780CA700401A8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C256FEC51D780CA700401A8B /* NetCarOne.app */,
+				C256FEDE1D780CA700401A8B /* NetCarOneTests.xctest */,
+				C256FEE91D780CA700401A8B /* NetCarOneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C256FEC71D780CA700401A8B /* NetCarOne */ = {
+			isa = PBXGroup;
+			children = (
+				C256FECB1D780CA700401A8B /* AppDelegate.h */,
+				C256FECC1D780CA700401A8B /* AppDelegate.m */,
+				C256FECE1D780CA700401A8B /* ViewController.h */,
+				C256FECF1D780CA700401A8B /* ViewController.m */,
+				C256FED11D780CA700401A8B /* Main.storyboard */,
+				C256FED41D780CA700401A8B /* Assets.xcassets */,
+				C256FED61D780CA700401A8B /* LaunchScreen.storyboard */,
+				C256FED91D780CA700401A8B /* Info.plist */,
+				C256FEC81D780CA700401A8B /* Supporting Files */,
+			);
+			path = NetCarOne;
+			sourceTree = "<group>";
+		};
+		C256FEC81D780CA700401A8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C256FEC91D780CA700401A8B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C256FEE11D780CA700401A8B /* NetCarOneTests */ = {
+			isa = PBXGroup;
+			children = (
+				C256FEE21D780CA700401A8B /* NetCarOneTests.m */,
+				C256FEE41D780CA700401A8B /* Info.plist */,
+			);
+			path = NetCarOneTests;
+			sourceTree = "<group>";
+		};
+		C256FEEC1D780CA700401A8B /* NetCarOneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C256FEED1D780CA700401A8B /* NetCarOneUITests.m */,
+				C256FEEF1D780CA700401A8B /* Info.plist */,
+			);
+			path = NetCarOneUITests;
+			sourceTree = "<group>";
+		};
+		C256FF011D780E7C00401A8B /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				C256FF051D780EA300401A8B /* BaseViewController.h */,
+				C256FF061D780EA300401A8B /* BaseViewController.m */,
+				C256FF081D780EE800401A8B /* LeftMenuViewController.h */,
+				C256FF091D780EE800401A8B /* LeftMenuViewController.m */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		C256FF021D780E7C00401A8B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C256FF031D780E7C00401A8B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C256FF041D780E7C00401A8B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C23A7AB31D7908C700F88B05 /* PrefixHeader.pch */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C256FF1D1D7812AF00401A8B /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				C256FF1E1D7812E800401A8B /* LeftSlideViewController.h */,
+				C256FF1F1D7812E800401A8B /* LeftSlideViewController.m */,
+				C256FF2B1D781A8900401A8B /* UIView+UIView_extra.h */,
+				C256FF2C1D781A8900401A8B /* UIView+UIView_extra.m */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		CC8416F56B7D2A323F444FB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				414AD12F6D3BFCB115821D4C /* libPods-NetCarOne.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C256FEC41D780CA700401A8B /* NetCarOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C256FEF21D780CA700401A8B /* Build configuration list for PBXNativeTarget "NetCarOne" */;
+			buildPhases = (
+				E8BF62A0475C6884B0318CA7 /* [CP] Check Pods Manifest.lock */,
+				C256FEC11D780CA700401A8B /* Sources */,
+				C256FEC21D780CA700401A8B /* Frameworks */,
+				C256FEC31D780CA700401A8B /* Resources */,
+				C64B460B12AE433DB027EB69 /* [CP] Embed Pods Frameworks */,
+				056C2D67DF129C3C99596FED /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetCarOne;
+			productName = NetCarOne;
+			productReference = C256FEC51D780CA700401A8B /* NetCarOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C256FEDD1D780CA700401A8B /* NetCarOneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C256FEF51D780CA700401A8B /* Build configuration list for PBXNativeTarget "NetCarOneTests" */;
+			buildPhases = (
+				C256FEDA1D780CA700401A8B /* Sources */,
+				C256FEDB1D780CA700401A8B /* Frameworks */,
+				C256FEDC1D780CA700401A8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C256FEE01D780CA700401A8B /* PBXTargetDependency */,
+			);
+			name = NetCarOneTests;
+			productName = NetCarOneTests;
+			productReference = C256FEDE1D780CA700401A8B /* NetCarOneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C256FEE81D780CA700401A8B /* NetCarOneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C256FEF81D780CA700401A8B /* Build configuration list for PBXNativeTarget "NetCarOneUITests" */;
+			buildPhases = (
+				C256FEE51D780CA700401A8B /* Sources */,
+				C256FEE61D780CA700401A8B /* Frameworks */,
+				C256FEE71D780CA700401A8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C256FEEB1D780CA700401A8B /* PBXTargetDependency */,
+			);
+			name = NetCarOneUITests;
+			productName = NetCarOneUITests;
+			productReference = C256FEE91D780CA700401A8B /* NetCarOneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C256FEBD1D780CA700401A8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = orange;
+				TargetAttributes = {
+					C256FEC41D780CA700401A8B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					C256FEDD1D780CA700401A8B = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5YRHF82688;
+						TestTargetID = C256FEC41D780CA700401A8B;
+					};
+					C256FEE81D780CA700401A8B = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5YRHF82688;
+						TestTargetID = C256FEC41D780CA700401A8B;
+					};
+				};
+			};
+			buildConfigurationList = C256FEC01D780CA700401A8B /* Build configuration list for PBXProject "NetCarOne" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C256FEBC1D780CA700401A8B;
+			productRefGroup = C256FEC61D780CA700401A8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C256FEC41D780CA700401A8B /* NetCarOne */,
+				C256FEDD1D780CA700401A8B /* NetCarOneTests */,
+				C256FEE81D780CA700401A8B /* NetCarOneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C256FEC31D780CA700401A8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C256FED81D780CA700401A8B /* LaunchScreen.storyboard in Resources */,
+				C256FED51D780CA700401A8B /* Assets.xcassets in Resources */,
+				C256FED31D780CA700401A8B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C256FEDC1D780CA700401A8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C256FEE71D780CA700401A8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		056C2D67DF129C3C99596FED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NetCarOne/Pods-NetCarOne-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C64B460B12AE433DB027EB69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NetCarOne/Pods-NetCarOne-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8BF62A0475C6884B0318CA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C256FEC11D780CA700401A8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C256FED01D780CA700401A8B /* ViewController.m in Sources */,
+				610AF4561D7D00E900DB8DCD /* JourneyViewController.m in Sources */,
+				9C870BD01D798DFA007C4589 /* Personal.m in Sources */,
+				C256FF071D780EA300401A8B /* BaseViewController.m in Sources */,
+				C256FECD1D780CA700401A8B /* AppDelegate.m in Sources */,
+				610AF4591D7D00F500DB8DCD /* RecommendViewController.m in Sources */,
+				9C870BEB1D798E36007C4589 /* Login.m in Sources */,
+				C256FF0A1D780EE800401A8B /* LeftMenuViewController.m in Sources */,
+				9C870BE11D798E1A007C4589 /* AlertView.m in Sources */,
+				9C870BF11D798E50007C4589 /* Singleton.m in Sources */,
+				9CF3D1061D7D39A5006C64B5 /* SecuirtyJourneyViewController.m in Sources */,
+				C256FF2D1D781A8900401A8B /* UIView+UIView_extra.m in Sources */,
+				C256FECA1D780CA700401A8B /* main.m in Sources */,
+				9C5F729D1D7ABED600D834C7 /* Memory.m in Sources */,
+				9C870BD91D798E05007C4589 /* ChangeMobileVC.m in Sources */,
+				9C870BE81D798E22007C4589 /* PersonalCell.m in Sources */,
+				610AF4501D7D00CB00DB8DCD /* MyWalletViewController.m in Sources */,
+				610AF45C1D7D010200DB8DCD /* HelpViewController.m in Sources */,
+				9C870BEE1D798E43007C4589 /* Identification.m in Sources */,
+				9CF3D1041D7D39A5006C64B5 /* SelectAddressViewController.m in Sources */,
+				9C870BD81D798E05007C4589 /* MobileController.m in Sources */,
+				9CF3D1031D7D39A5006C64B5 /* FrequentAddressViewController.m in Sources */,
+				9C870BD71D798E05007C4589 /* NicenameController.m in Sources */,
+				9C870BE71D798E22007C4589 /* TextField.m in Sources */,
+				9C870BE01D798E1A007C4589 /* PickerView.m in Sources */,
+				9C5F72A01D7AC8B000D834C7 /* KBnotification.m in Sources */,
+				9CF3D1071D7D39A5006C64B5 /* BlackListViewController.m in Sources */,
+				610AF45F1D7D034500DB8DCD /* HomeViewController.m in Sources */,
+				C256FF201D7812E800401A8B /* LeftSlideViewController.m in Sources */,
+				9C870BE21D798E1A007C4589 /* RegularCheak.m in Sources */,
+				9C5BE13D1D7D12DF0009ECCA /* MailboxVC.m in Sources */,
+				610AF4531D7D00DB00DB8DCD /* SettingViewController.m in Sources */,
+				9CF3D1021D7D39A5006C64B5 /* AboutUsViewController.m in Sources */,
+				9CF3D1051D7D39A5006C64B5 /* UrgencyConnectViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C256FEDA1D780CA700401A8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C256FEE31D780CA700401A8B /* NetCarOneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C256FEE51D780CA700401A8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C256FEEE1D780CA700401A8B /* NetCarOneUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C256FEE01D780CA700401A8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C256FEC41D780CA700401A8B /* NetCarOne */;
+			targetProxy = C256FEDF1D780CA700401A8B /* PBXContainerItemProxy */;
+		};
+		C256FEEB1D780CA700401A8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C256FEC41D780CA700401A8B /* NetCarOne */;
+			targetProxy = C256FEEA1D780CA700401A8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C256FED11D780CA700401A8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C256FED21D780CA700401A8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C256FED61D780CA700401A8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C256FED71D780CA700401A8B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C256FEF01D780CA700401A8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)／NetCarOne/Utils/PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C256FEF11D780CA700401A8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)／NetCarOne/Utils/PrefixHeader.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C256FEF31D780CA700401A8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6802F2804479BF94CF381E6 /* Pods-NetCarOne.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Utils/PrefixHeader.pch;
+				INFOPLIST_FILE = NetCarOne/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiyou.NetCarOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Debug;
+		};
+		C256FEF41D780CA700401A8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 966540EF50921A02332A069C /* Pods-NetCarOne.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Utils/PrefixHeader.pch;
+				INFOPLIST_FILE = NetCarOne/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiyou.NetCarOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Release;
+		};
+		C256FEF61D780CA700401A8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NetCarOneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiyou.NetCarOneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetCarOne.app/NetCarOne";
+			};
+			name = Debug;
+		};
+		C256FEF71D780CA700401A8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NetCarOneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiyou.NetCarOneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetCarOne.app/NetCarOne";
+			};
+			name = Release;
+		};
+		C256FEF91D780CA700401A8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NetCarOneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiyou.NetCarOneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NetCarOne;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C256FEFA1D780CA700401A8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NetCarOneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiyou.NetCarOneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NetCarOne;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C256FEC01D780CA700401A8B /* Build configuration list for PBXProject "NetCarOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C256FEF01D780CA700401A8B /* Debug */,
+				C256FEF11D780CA700401A8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C256FEF21D780CA700401A8B /* Build configuration list for PBXNativeTarget "NetCarOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C256FEF31D780CA700401A8B /* Debug */,
+				C256FEF41D780CA700401A8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C256FEF51D780CA700401A8B /* Build configuration list for PBXNativeTarget "NetCarOneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C256FEF61D780CA700401A8B /* Debug */,
+				C256FEF71D780CA700401A8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C256FEF81D780CA700401A8B /* Build configuration list for PBXNativeTarget "NetCarOneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C256FEF91D780CA700401A8B /* Debug */,
+				C256FEFA1D780CA700401A8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C256FEBD1D780CA700401A8B /* Project object */;
+}

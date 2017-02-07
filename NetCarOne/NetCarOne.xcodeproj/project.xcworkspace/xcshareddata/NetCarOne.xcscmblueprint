@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5d0ac048-45df-1b4c-8cf4-426a20469ce4++5326",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "5d0ac048-45df-1b4c-8cf4-426a20469ce4++5326" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5d0ac048-45df-1b4c-8cf4-426a20469ce4++5326" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A4B2FCC5-5F6F-4297-9492-E9F5B1D868E8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5d0ac048-45df-1b4c-8cf4-426a20469ce4++5326" : "ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "NetCarOne",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "code\/乘客端\/NetCarOne\/NetCarOne.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/hui.li@121.40.82.158\/svn\/taxi",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5d0ac048-45df-1b4c-8cf4-426a20469ce4++5326"
+    }
+  ]
+}
